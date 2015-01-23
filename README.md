@@ -15,7 +15,7 @@ choco install PackerCommunityPlugins -preRelease
 ## Development
  
 ``` 
-cd C:\vagrant\chocolatey-package-vsagents2013
+cd C:\chocolateypackages
 vagrant up
 $env:build_number='23'
 .\build.ps1 package
