@@ -1,0 +1,17 @@
+version: 0.0.{build}-alpha
+build_script:
+- ps: >-
+    $env:BUILD_NUMBER=$env:APPVEYOR_BUILD_NUMBER
+
+    .\build.ps1 Package
+artifacts:
+- path: Output\Packages\*.nupkg
+  name: Chocolatey Package
+deploy:
+- provider: NuGet
+  server: http://chocolatey.org/
+  api_key:
+    secure: JK8n78IPsShMoCBWbASzOtqFnSNhKWwlbBoLHZupnDW5XIDqntzv2J454qlh06RK
+- provider: NuGet
+  api_key:
+    secure: dR6h5x9wVU2wiXewc76OOnWOBteLljknNtIBlEyZoG5CIPjUdl7lgHS5T8hSKeuQ

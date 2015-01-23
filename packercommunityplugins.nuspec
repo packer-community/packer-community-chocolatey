@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>PackerCommunityPlugins</id>
+    <title>Packer Community Plugins</title>
+    <version>0.0.1-alpha</version>
+    <authors>Seek</authors>
+    <owners>Matt Fellows</owners>
+    <description>A </description>
+    <projectUrl>https://github.com/packer-community/packer-windows-plugins</projectUrl>
+    <tags>visual-studio-agents 2013 installer</tags>
+    <licenseUrl>https://github.com/packer-community/packer-windows-plugins/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="Tools\**" target="tools" />
+  </files>
+</package>
