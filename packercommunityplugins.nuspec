@@ -6,12 +6,15 @@
     <version>0.0.2-alpha</version>
     <authors>Seek</authors>
     <owners>Matt Fellows</owners>
-    <description>A tool for creating identical Windows Machine images from a single source configuration</description>
+    <description>A tool for creating identical Windows Machine images from a single source configuration.</description>
     <projectUrl>https://github.com/packer-community/packer-windows-plugins</projectUrl>
-    <tags>packer windows installer</tags>
+    <tags>packer-community packer windows installer</tags>
     <licenseUrl>https://github.com/packer-community/packer-windows-plugins/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes></releaseNotes>
+    <dependencies>
+      <dependency id='packer' />
+    </dependencies>
   </metadata>
   <files>
     <file src="Tools\**" target="tools" />
