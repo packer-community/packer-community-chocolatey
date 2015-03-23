@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>packer-community-plugins</id>
-    <title>Packer Community Plugins</title>
+    <id>packer-windows-plugins</id>
+    <title>Packer Windows Plugins</title>
     <version>1.0.0-RC</version>
     <authors>Matt Fellows, Dylan Meissner</authors>
     <owners>Packer Community</owners>
