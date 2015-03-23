@@ -4,17 +4,16 @@ properties {
   $outputDir = ".\Output"
   $outputPackageDir = "${outputDir}\Packages"
   $outputModuleManifestDir = "${outputDir}\ModuleManifests"
-  $version = "0.0"
+  $version = "1.0.0"
   $buildNumber = $env:BUILD_NUMBER
-  $pre = "-alpha"
-  $meta = ""
+  $meta = "-RC"
 }
 
 task default -depends Clean
 
 task Package -depends Clean {
   if ($buildNumber) {
-    $version = "${version}.${buildNumber}${pre}${meta}"
+    $version = "${version}${meta}${buildNumber}"
   }
   if (-not (Test-Path $outputPackageDir)) {
     New-Item -ItemType directory -Path $outputPackageDir
