@@ -3,9 +3,9 @@
   <metadata>
     <id>PackerCommunityPlugins</id>
     <title>Packer Community Plugins</title>
-    <version>0.0.2-alpha</version>
-    <authors>Seek</authors>
-    <owners>Matt Fellows</owners>
+    <version>1.0.0-RC</version>
+    <authors>Matt Fellows, Dylan Meissner</authors>
+    <owners>Packer Community</owners>
     <description>A tool for creating identical Windows Machine images from a single source configuration.</description>
     <projectUrl>https://github.com/packer-community/packer-windows-plugins</projectUrl>
     <tags>packer-community packer windows installer</tags>
