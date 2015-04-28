@@ -5,8 +5,8 @@ properties {
   $outputPackageDir = "${outputDir}\Packages"
   $outputModuleManifestDir = "${outputDir}\ModuleManifests"
   $version = "1.0.0"
-  $buildNumber = $env:BUILD_NUMBER
-  $meta = "-RC"
+  # $buildNumber = $env:BUILD_NUMBER
+  # $meta = "-RC"
 }
 
 task default -depends Clean

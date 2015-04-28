@@ -9,7 +9,7 @@ A [Chocolatey](http://chocolatey.org/) Package installer for Packer Community Pl
 From a Windows Powershell, run the following:
 
 ```
-choco install PackerCommunityPlugins -preRelease
+choco install packer-windows-plugins
 ```
 
 ## Development
@@ -19,5 +19,5 @@ cd C:\chocolateypackages
 vagrant up
 $env:build_number='23'
 .\build.ps1 package
-choco install PackerCommunityPlugins -source C:\chocolateypackages\Output\Packages -preRelease
+choco install packer-windows-plugins -source C:\chocolateypackages\Output\Packages -preRelease
 ```

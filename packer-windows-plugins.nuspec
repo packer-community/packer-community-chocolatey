@@ -3,7 +3,7 @@
   <metadata>
     <id>packer-windows-plugins</id>
     <title>Packer Windows Plugins</title>
-    <version>1.0.0-RC</version>
+    <version>1.0.0</version>
     <authors>Matt Fellows, Dylan Meissner</authors>
     <owners>Packer Community</owners>
     <description>A tool for creating identical Windows Machine images from a single source configuration.</description>
